@@ -10,4 +10,7 @@ module.exports = {
             await t.click(Selector('[data-cky-tag="accept-button"]'));
         }
     },
+    onAccountPage: async function () {
+        await t.navigateTo('https://account.directferries.com/?culture=en-GB');
+    },
 };
