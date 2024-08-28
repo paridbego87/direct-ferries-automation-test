@@ -1,5 +1,5 @@
-const { Given, When, Then } = require("@cucumber/cucumber");
-const homepage = require("../methods/homepage-methods.js");
+const { Given, When, Then } = require('@cucumber/cucumber');
+const homepage = require('../methods/homepage-methods.js');
 
 Then('I see top destinations', async function () {
     await homepage.topDestinationsPresent();
